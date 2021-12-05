@@ -1,0 +1,74 @@
+
+.point{
+    margin-top: 200px;
+    margin-bottom: 200PX;
+}
+.point__about{
+    width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.point__second__part{
+    padding-left: 85px ;
+}
+.point__thema{
+    font-family: 'Fraunces' 9pt;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #83888F;
+}
+.point__report{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style-type: none;
+    width: 760px;
+    justify-content: space-between;
+    margin-bottom: 69px;
+}
+.point__report__project + .point__report__project{
+    margin-left: 85px;
+}
+.point__round{
+    background-color: #FEFCF7;
+    z-index: 99;
+    position: relative;
+    padding-left: 9px;
+    padding-right:9px;
+    border-radius: 50%;
+    border: 2px solid #0E8784;
+}
+.point__report__line{
+    width: 730px;
+    position: absolute;
+    display: inline-block;
+    border: 2px solid #FDD6BA;
+}
+.point__number__contend{
+    display: flex;
+    width: 730px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.point__number__calm {
+    width: 285px;
+    height: 355px;
+}
+.point__number__calm + .point__number__calm{
+    margin-left: 95px;
+}
+.point__line__number{
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    color: #333D4B;
+}
+.point__content__text{
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+}

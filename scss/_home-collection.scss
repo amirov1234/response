@@ -1,0 +1,64 @@
+
+.collection{
+    padding: 0;
+    margin: 0;
+    margin-top: -140px;
+}
+.collection__image{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1111px;
+    left: 0;
+    right: 0;
+}
+.collection__style{
+    font-family: 'Fraunces' 9t;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 175px;
+    line-height: 72px;
+    z-index: 3;
+    margin-left: 45px;
+    position: absolute;
+    color: #83888F;
+}
+.collection__list{
+    background-image: url(../image/Rectangle.png);
+    display: flex;
+    padding: 0;
+    margin: 0;
+    z-index: 66;
+    position: relative;
+    justify-content: space-between;
+    list-style: none;
+    top: 100px;
+}
+
+
+.collection__item{
+    top: 100px;
+    position: relative;
+    text-align: center;
+    padding: 20px;
+}
+.colection__list__link{
+    text-decoration: none;
+    position: relative;
+    top: 71px;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #333D4B;
+    font-family: 'Fraunces', serif;
+}
+.colection__list__link:hover{
+    opacity: .5;
+}
+.collection__text{
+    position: relative;
+    top: 71.55px;
+    font-family: 'Barlow', sans-serif;
+    color: black;
+    font-weight: bold;
+
+}

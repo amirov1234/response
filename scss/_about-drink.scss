@@ -1,0 +1,102 @@
+
+.drink{
+    margin-top: 158px;
+}
+.drink__pleasure{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1280px;
+    border-radius: 10px;
+}
+.cofee__tea{
+    padding: 85px;
+    width: 1280px;
+    background: #2C343E;
+    display: flex;
+    height: 441px;
+    
+}
+.telefon{
+    
+position: relative;
+    width: 1110px;
+}
+.drink__alone__part{
+    position: relative;
+}
+.drink__pleasure__title{
+    font-size: 40px;
+    line-height: 48px;
+    color: #FEFCF7;
+    font-family: 'Fraunces', serif;
+}
+.drink__pleasure__expression{
+    font-family: 'Barlow', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+
+.drink__cofee__photo{
+    width: 445px;
+    height: 474px;
+    position: absolute;
+    top: -200px;
+    right: 0;
+    border-radius: 8px;
+}
+.drink__alone__part{
+    width: 540px;
+    height: 210px;
+}
+
+
+.drink__map{
+    margin-top: 110px;
+}
+.title__thema{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1110px;
+    margin-bottom: 72px;
+
+}
+.drink__map__thema{
+    font-family: 'Fraunces', serif;
+    font-size: 24px;
+    line-height: 32px;
+    color: #83888F;
+}
+
+.drink__title{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1110px;
+    display: flex;
+    justify-content: space-between;
+}
+.drink__island{
+    Width :48,97px;
+    Height:37,25px;
+}
+.drink__title__list{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 285px;
+    height: 167px;
+}
+.drink__address{
+    font-size: 32px;
+    line-height: 36px;
+    color: #333D4B;
+    font-family: 'Fraunces', serif;
+}
+.drink__list__item{
+    font-family: 'Barlow', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+}

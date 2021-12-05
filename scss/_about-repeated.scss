@@ -1,0 +1,33 @@
+
+.repeated{
+    width: 1110px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.repeated__image{
+    background: #0E8784;
+    border-radius: 8px;
+}
+.repeated__about{
+    width: 540px;
+    
+}
+.important__thema{
+    font-family: 'Fraunces', serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #333D4B;
+    
+}
+.important__information{
+    font-size: 16px;
+    line-height: 26px;
+    font-family: 'Barlow', sans-serif;
+    color: #333D4B;
+    mix-blend-mode: normal;
+}

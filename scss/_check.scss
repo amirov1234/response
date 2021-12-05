@@ -1,0 +1,246 @@
+.check{
+    margin-top: 50px;
+    // margin-bottom: 168px;
+
+    &__container{
+        margin-left: auto;
+        margin-right: auto;
+        width: 1280px;
+        height: 2600px;
+        // height: auto;
+
+        display: flex;
+        justify-content: space-between;
+        padding: 85px;
+
+        &__left{
+            width: 255px;
+            .check__container__list{
+                margin: 0;
+                padding: 0;
+                list-style-type: none;
+                .check__container__item{
+                    .check__one__link{
+                        margin-left: 30px;
+                        text-decoration: none;
+                        font-size: 24px;
+                        line-height: 32px;
+                        color: #0E8784;
+                        font-family: 'Fraunces';
+                        .check__one__span{
+                            margin-left: 28.5px;
+                            font-size: 24px;
+                            line-height: 32px;
+                            color: #333D4B;
+                            opacity: .7;
+                        }
+                    }// .check__one__link
+
+                    .check__two__link{
+                        margin-left: 30px;
+                        text-decoration: none;
+                        font-size: 24px;
+                        line-height: 32px;
+                        color: #83888F;
+                        font-family: 'Fraunces';
+                        .check__two__span{
+                            margin-left: 28.5px;
+                            font-size: 24px;
+                            line-height: 32px;
+                            color: #333D4B;
+                        }
+                    } //.check__two__link
+
+                    .check__three__link{
+                        margin-left: 30px;
+                        text-decoration: none;
+                        font-size: 24px;
+                        line-height: 32px;
+                        color: #83888F;
+                        font-family: 'Fraunces';
+                        .check__three__span{
+                            margin-left: 28.5px;
+                            font-size: 24px;
+                            line-height: 32px;
+                            color: #333D4B;
+                            opacity: .7;
+                        }
+                    }// .check__three__link
+
+                    .check__four__link{
+                        margin-left: 30px;
+                        text-decoration: none;
+                        font-size: 24px;
+                        line-height: 32px;
+                        color:  #83888F;
+                        font-family: 'Fraunces';
+                        .check__four__span{
+                            margin-left: 28.5px;
+                            font-size: 24px;
+                            line-height: 32px;
+                            color: #333D4B;
+                            opacity: .8;
+                        }
+                    }//.check__four__link
+                    .check__five__link{
+                        margin-left: 30px;
+                        text-decoration: none;
+                        font-size: 24px;
+                        line-height: 32px;
+                        color:   #83888F;
+                        font-family: 'Fraunces';
+                        .check__five__span{
+                            margin-left: 28.5px;
+                            font-size: 24px;
+                            line-height: 32px;
+                            color:  #333D4B;
+                        }
+                    }
+                }//.check__container__item
+            }//.check__container__list
+        }// &__left
+
+
+
+        /////////////////////////////////////////////////////////////////////////////////////////////////
+
+        .check__right{
+            width: 730px;
+        }
+        .check__pole{
+            width: 730px;
+            height: 354px;
+        }
+        .check__thema{
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            position: relative;
+
+        }
+        .check__thema{
+             margin-top: 88px;
+         }
+
+        .check__name{
+            display: inline;
+            margin: 0;
+            padding: 0;
+            font-size: 40px;
+            line-height: 48px;
+            color: #83888F;
+            font-family: 'Fraunces';
+        }
+        .check__mice{
+            top: 0;
+            right: 0;
+            position: absolute;
+            margin: 0;
+            padding: 0;
+            border-top: 20px solid transparent;
+            border-left: 20px solid transparent;
+            border-bottom: 20px solid #0E8784;
+            border-right: 20px solid transparent;
+        }
+
+
+
+
+
+.check__twise{
+    display: flex;
+    justify-content: space-between;
+}
+
+.check__card{
+    padding: 28px;
+    width: 228px;
+    height: 250px;
+    display: block;
+    background-color: #F4F1EB;
+    color:  #333D4B;
+    border-radius: 8px;
+    margin-top: 56px;
+}
+.check__card:hover{
+background-color: #FDD6BA;
+}
+.check__input:checked + .check__card{
+    background-color: #0E8784;
+    color: white;
+}
+.check__drink{
+    font-size: 24px;
+    line-height: 32px;
+    color: #333D4B;
+    font-family: 'Fraunces';
+}
+.check__text{
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+    font-family: 'Barlow';
+}
+
+
+.check__end{
+    width: 730px;
+    margin-bottom: 30px;
+}
+.check__after{
+    width: 730px;
+    background-color: #2C343E;
+    margin-top: 84px;
+    padding: 44px;
+    height: 208px;
+
+}
+.check__little{
+    font-family: 'Barlow';
+    font-size: 16px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    display: inline;
+}
+.check__large{
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 40px;
+    color: #FFFFFF;
+    font-family: 'Fraunces';
+}   
+.check__chance{
+    color:#0E8784 ;
+}
+
+.button{
+    position: relative;
+   
+}
+.check__button{
+    background-color: #0E8784;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #FEFCF7;
+    padding: 15px 35.5px;
+    border-radius: 5px;
+    border: none;
+    position: absolute;
+    right: 0;
+}
+     .check__button:hover{
+         background-color: #0E8784;
+         opacity: .8;
+         color: gold;
+     }   
+  
+
+
+    } //&__container
+} //.check

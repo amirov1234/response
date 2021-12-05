@@ -1,0 +1,183 @@
+
+.middle{
+    padding-top: 55px;
+    padding: 20px;
+}
+.hero__container2{
+    padding:0 20px;
+    max-width: 1320px;
+    width: 100%;
+    height: 600px;
+    background-size: 1280px, 834px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 200px;
+}
+.hero__inline{
+    padding: 20px;
+    padding: 115px  85px;
+    background-image: url(../image/photo-cofee.jpg);
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+.hero-method{
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;  
+    color: white;
+    max-width: 495px;
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 32px;
+    font-size: 72px;
+    line-height: 72px;
+}
+.hero-text{
+    font-family: 'Barlow';
+    width: 445px;
+    margin: 0;
+    margin-bottom: 56px;
+    line-height: 26px;
+    color: #fefcf7;
+    opacity: .8;
+}
+.link-inform{
+    text-decoration: none;
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FEFCF7;
+    width: 217px;
+    padding: 15px 31px;
+    border-radius: 6px;
+    background-color:  #0E8784;
+}
+.link-inform:hover{
+    background-color:  #0E8784;
+    opacity: 0.5;
+}
+
+
+@media only screen and(max-width:1170px){
+    .hero__inline{
+        background-image: url(../image/photo-cofee.jpg);
+        background-position: center;
+    }
+}
+
+@media only screen and(max-width:900px){
+    .hero__inline{
+        // background-image: url(../image/photo-cofee.jpg);
+        background-position: center;
+    }
+}
+
+@media only screen and(max-width:800px){
+    .hero__inline{
+        background-image: url(../image/photo-cofee.jpg);
+        background-position: center;
+    }
+}
+
+@media only screen and(max-width:700px){
+    .hero__inline{
+        background-image: url(../image/photo-cofee.jpg);
+        background-position: center;
+        border-radius: 10px;
+        background-size: 1395px 663px;
+        max-width:700px;
+    }
+}
+@media only screen and(max-width:645px){
+    .hero__inline{
+        background-image: url(../image/photo-cofee.jpg);
+        background-position: center;
+        border-radius: 10px;
+        background-size: 1280px 735px;
+        max-width:645px;
+    }
+}
+
+@media only screen and(max-width:600px){
+    .hero__inline{
+        background-image: url(../image/photo-cofee.jpg);
+        background-position: center;
+        background-size:  12;
+        border-radius: 10px;
+        width: 100%;
+        max-width:600px;
+    }
+}
+@media only screen and(max-width:420px){
+    .hero__inline{
+        background-image: url(../image/photo-cofee.jpg);
+        background-position: center;
+        background-size: 1280px 760px;
+        padding: 80px 35px;
+    }
+    .hero-method{
+        width: 150px;
+    }
+
+}
+@media only screen and(max-width:360px){
+    .hero__inline{
+        background-image: url(../image/photo-cofee.jpg);
+        background-position: center;
+        background-size: 1280px 760px;
+        padding: 80px 35px;
+    }
+    .hero-method{
+        width: 150px;
+    }
+    .hero-text{
+        width: 350px;
+    }
+
+}
+@media only screen and(max-width:400px){
+    .hero__inline{
+        background-image: url(../image/photo-cofee.jpg);
+        background-position: center;
+        border-radius: 10px;
+    }
+}
+
+
+
+@media only screen and(max-width:768){
+    .hero__inline{
+        max-width: 700px;
+        width: 100%;
+        background-size: 700px, 500px;
+    }
+}
+
+
+
+
+
+
+@media only screen and(max-width:617px){
+    .hero-method{
+        width: 300px;
+    }
+}
+
+
+
+@media only screen and(max-width:689px){
+    .hero-text{
+        width: 300px;
+
+    }
+}
+@media only screen and(max-width:430px){
+    .link-inform{
+        width: 100px;
+        height: 53px;
+    }
+}
+ 

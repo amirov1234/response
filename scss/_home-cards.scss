@@ -1,0 +1,82 @@
+.cards{
+    margin-top: 406.45px;
+}
+.cards__choose{
+    margin: 0;
+    padding: 0;
+    margin-left: auto;
+    height: 577px;
+    margin-right: auto;
+    background: #2C343E;
+    border-radius: 10px;
+    width: 1280px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cards__choose__articl{
+    color: white;
+    font-family: "Barlow", sans-serif;
+    padding-top: 100px; 
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    color: #FEFCF7;
+    margin-bottom: 32px;
+}
+.cards__choose__text{
+    width: 540px;
+    font-family: sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FEFCF7;
+    opacity: 0.8;
+}
+.cards__quet{
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.cards__quet__list{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    margin-left: 85px;
+    margin-top: 86px;
+}
+
+.cards__list__nothing{
+    width: 350px;
+    height: 382px;
+    border-radius: 8px;
+    background-color: #0E8784;
+    padding: 47px;  
+    margin-bottom: 20px
+    
+}
+.cards__list__nothing + .cards__list__nothing{
+    margin-left: 30px;
+}
+.car{
+    margin-bottom: 23px;
+}
+
+.cards__list__thema{
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #FEFCF7;
+}
+.cards__list__text{
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FEFCF7;
+    opacity: .7;
+}
