@@ -133,10 +133,48 @@
         width: 150px;
     }
     .hero-text{
-        width: 350px;
+        max-width: 200px;
     }
 
 }
+
+@media only screen and(max-width:320px){
+
+    .hero-method{
+        font-size: 50px;
+        line-height: 1;
+
+    }
+
+    .hero-text{
+        width: 200px;
+        font-size: 10xp;
+        // line-height: 0;
+    }
+}
+
+
+
+@media only screen  and(max-width:322px){
+    .link-inform{
+               max-width: 200px;
+               flex-direction: column;
+               padding: 10px 20px;
+        }
+
+        .hero-method{
+            font-size: 50px;
+            line-height: 1;
+    
+        }
+        .hero-text{
+            font-size: 15px;
+            line-height: 1.5;
+    
+        }
+}
+
+
 @media only screen and(max-width:400px){
     .hero__inline{
         background-image: url(../image/photo-cofee.jpg);
@@ -174,10 +212,10 @@
 
     }
 }
-@media only screen and(max-width:430px){
-    .link-inform{
-        width: 100px;
-        height: 53px;
+@media only screen and(max-width:333px){
+
+    .hero-method{
+        font-size: 60px;
     }
 }
  

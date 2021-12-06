@@ -5,24 +5,37 @@
     margin-top: -140px;
 }
 .collection__image{
+    padding: 0 20px;
     margin-left: auto;
     margin-right: auto;
-    width: 1111px;
+    width: 100%;
     left: 0;
     right: 0;
+    max-width: 1320px;
+    position: relative;
 }
+
+.background{
+    max-width: 1280px;
+    width: 100%;
+    padding: 0 20px;
+    // background-color: blue;
+}
+
 .collection__style{
-    font-family: 'Fraunces' 9t;
-    font-style: normal;
+    font-family: 'Fraunces' ;
     font-weight: 900;
     font-size: 175px;
     line-height: 72px;
     z-index: 3;
-    margin-left: 45px;
     position: absolute;
     color: #83888F;
 }
 .collection__list{
+    // background-color: blue;
+    padding: 0 20px;
+    max-width: 1320px;
+    width: 100%;
     background-image: url(../image/Rectangle.png);
     display: flex;
     padding: 0;
@@ -55,6 +68,7 @@
     opacity: .5;
 }
 .collection__text{
+    margin: 0 auto;
     position: relative;
     top: 71.55px;
     font-family: 'Barlow', sans-serif;

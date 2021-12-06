@@ -1,0 +1,148 @@
+@media only screen and(max-width:1291px){
+    .background{
+        max-width: 1200px;
+        flex-direction: column;
+    }
+    
+    .collection__style{
+        font-size: 150px;
+        margin-left: 30px;
+
+    }
+}
+@media only screen and(max-width:1172px){
+    .background{
+        max-width: 1000px;
+        flex-direction: column;
+    }
+    
+    .collection__style{
+        font-size: 130px;
+        margin-left: 30px;
+
+    }
+}
+@media only screen and(max-width:1030px){
+    .background{
+        max-width: 900px;
+        flex-direction: column;
+    }
+    
+    .collection__style{
+        font-size: 100px;
+        margin-left: 30px;
+
+    }
+}
+@media only screen and(max-width:800px){
+    .background{
+        max-width: 700px;
+        flex-direction: column;
+    }
+    
+    .collection__style{
+        font-size: 90px;
+        margin-left: 30px;
+
+    }
+}
+@media only screen and(max-width:733px){
+    .background{
+        max-width: 600px;
+        
+        margin-top: 100px;
+    }
+    
+    .collection__style{
+        font-size: 75px;
+       top: 100px;
+
+    }
+}
+@media only screen and(max-width:588px){
+    .background{
+        max-width: 400px;
+        
+        margin-top: 100px;
+    }
+    
+    .collection__style{
+        font-size: 65px;
+        top: 100px;
+
+    }
+}
+@media only screen and(max-width:519px){
+    .background{
+        max-width: 350px;
+        margin-top: 100px;
+    }
+    
+    .collection__style{
+        font-size: 55px;
+        top: 100px;
+        margin-left: 0; 
+
+    }
+}
+@media only screen and(max-width:452px){
+    .background{
+        max-width: 300px;
+        margin-top: 100px;
+    }
+    
+    .collection__style{
+        font-size: 45px;
+        top: 100px;
+        margin-left: 0;
+
+    }
+}
+@media only screen and(max-width:383px){
+    .background{
+        max-width: 250px;
+        margin-top: 100px;
+    }
+    
+    .collection__style{
+        font-size: 35px;
+        top: 100px;
+        margin-left: 0;
+
+    }
+}
+
+
+
+
+
+
+
+
+@media only screen and(max-width:1160px){
+    .collection__list{
+        background-size: auto;
+        max-width:1160px;
+        flex-direction: column;
+        margin-top: 150px;
+    }
+
+    .collection__item{
+        margin-top: 80px;
+    }
+
+    .collection__item + .collection__item {
+        margin-bottom: 50px;
+    }
+    .collection__text{
+        width: 300px;
+    }
+}
+
+@media only screen and(max-width:375px){
+    .collection__item{
+        margin-left: 0;
+    }
+}
+
+
