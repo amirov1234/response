@@ -1,21 +1,25 @@
 .cards{
     margin-top: 406.45px;
 }
+.main{
+    padding: 0 20px;
+    margin: 0 auto;
+}
 .cards__choose{
+    background-color: red;
     margin: 0;
-    padding: 0;
+    padding: 0 20px;
     margin-left: auto;
     height: 577px;
     margin-right: auto;
     background: #2C343E;
     border-radius: 10px;
-    width: 1280px;
+    max-width: 1280px;
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .cards__choose__articl{
+    position: relative;
     color: white;
     font-family: "Barlow", sans-serif;
     padding-top: 100px; 
@@ -26,7 +30,7 @@
     margin-bottom: 32px;
 }
 .cards__choose__text{
-    width: 540px;
+    max-width: 540px;
     font-family: sans-serif;
     margin-left: auto;
     margin-right: auto;
@@ -39,24 +43,36 @@
 .cards__quet{
     margin-left: auto;
     margin-right: auto;
+    max-width: 1280px;
+    position: relative;
     
 }
 .cards__quet__list{
+    position: absolute;
     list-style: none;
     display: flex;
+    max-width: 1200px;
     margin: 0;
     padding: 0;
-    margin-left: 85px;
-    margin-top: 86px;
+    top: 50%;
+    left: 7.5%;
+    right: 7.5%;
+    margin-top: -240px;
+    // margin-left: 85px;   
+    // margin-top: 86px;                                                                                                              
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .cards__list__nothing{
-    width: 350px;
-    height: 382px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 350px;   
+    min-height: 382px;
     border-radius: 8px;
     background-color: #0E8784;
-    padding: 47px;  
-    margin-bottom: 20px
+    padding: 47px; 
+    text-align: center;
     
 }
 .cards__list__nothing + .cards__list__nothing{

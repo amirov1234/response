@@ -114,11 +114,6 @@
 
 
 
-
-
-
-
-
 @media only screen and(max-width:1160px){
     .collection__list{
         background-size: auto;
@@ -134,6 +129,7 @@
     .collection__item + .collection__item {
         margin-bottom: 50px;
     }
+    
     .collection__text{
         width: 300px;
     }
